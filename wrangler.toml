@@ -1,0 +1,11 @@
+name = "signature-wall-new"
+main = "worker.js"
+compatibility_date = "2026-10-17"
+
+[[durable_objects.bindings]]
+name = "SIGNATURES"
+class_name = "SignatureRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SignatureRoom"]
